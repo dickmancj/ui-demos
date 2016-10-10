@@ -6036,7 +6036,7 @@
         var overlaysRegex = new RegExp('^' + sigmaConfig.urls.overlays, 'i');
         var pointAnalysisRegex = new RegExp('^' + sigmaConfig.urls.pointconverter, 'i');
 
-        sigmaConfig.overlayPrefix = 'http://github.io/dickmancj/sigma/';
+        sigmaConfig.overlayPrefix = 'http://dickmancj.github.io/ui-demos/sigma/';
 
         // Templates requests must pass through
         $httpBackend.whenGET(/html$/).passThrough();
